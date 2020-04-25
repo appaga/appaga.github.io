@@ -10,3 +10,5 @@ title: About
 favicon은 https://favicon.io 에성 생성하여 사용하고 있습니다.
 
 ![로고](/assets/img/favicons/favicon-512x512.png)
+
+[사이트맵](/sitemap.xml)
