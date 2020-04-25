@@ -22,14 +22,14 @@ github:
   username: appaga             # change to your github username
 
 twitter:
-  username:             # change to your twitter username
+  username: appaga1            # change to your twitter username
 
 social:
   name: APPAGA                  # it will shows as the copyright owner in Footer
   email: ttallaemideul@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/      # change to your twitter homepage
+    - https://twitter.com/appga1      # change to your twitter homepage
     - https://github.com/appaga       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
