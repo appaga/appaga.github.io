@@ -3,7 +3,7 @@ title: "Creating Thymeleaf Custom Tags"
 author: APPAGA
 date: 2020-04-16 22:00:00 +0900
 categories: [Web,spring]
-tags: [springboot, thymeleaf]
+tags: [springboot, thymeleaf, dialect]
 ---
 
 # 타임리프 커스텀 태그 만들기

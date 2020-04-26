@@ -3,7 +3,7 @@ title: "Extending Thymeleaf dialect : processing attribute value"
 author: APPAGA
 date: 2020-04-17 22:00:00 +0900
 categories: [Web,spring]
-tags: [springboot, thymeleaf]
+tags: [springboot, thymeleaf, dialect]
 ---
 
 # thymeleaf dialect 확장하여 태그 속성값을 변환하여 출력하기
