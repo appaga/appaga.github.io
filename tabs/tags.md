@@ -22,7 +22,9 @@ title: Tags
 
 {% for t in sorted_tags %}
   <div>
-    <a class="tag" href="{{ site.baseurl }}/tags/{{ t | replace: ' ', '-' | downcase | url_encode }}/">{{ t }}<span class="text-muted">{{ site.tags[t].size }}</span></a>
+    <a class="tag" href="{{ site.baseurl }}/tags/{{ t | replace: ' ', '-' | downcase | url_encode }}/" onclick="sendGaEvent('tag', 'item', '{{ t }}', '{{ site.tags[t].size }}')">
+    	{{ t }}<span class="text-muted">{{ site.tags[t].size }}</span>
+    </a>
   </div>
 {% endfor %}
 
