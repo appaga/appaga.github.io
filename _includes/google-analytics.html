@@ -6,4 +6,11 @@
   gtag('js', new Date());
 
   gtag('config', '{{ site.google_analytics.id }}');
+  function sendGaEvent(category, action, label, value) {
+	  if(!category) category = 'LINK';
+	  if(!action) action = 'CLICK';
+	  if(!label) label = '';
+	  if(!value) value = '';
+	  ga('send', 'event', category, action, label, value);
+  }
 </script>
