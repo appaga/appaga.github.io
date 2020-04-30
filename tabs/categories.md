@@ -38,7 +38,7 @@ title: Categories
         <i class="far fa-folder fa-fw"></i>
       {% endif %}
         <a href="{{ site.baseurl }}/categories/{{ category_name | replace: ' ', '-' | downcase | url_encode }}/"
-          class="ml-1 mr-2" onclick="sendGaEvent('category', '{{ category_name }}')">{{ category_name }}</a>
+          class="ml-1 mr-2" onclick="sendGaEvent('category', 'top', '{{ category_name }}')">{{ category_name }}</a>
         <!-- content count -->
         {% assign top_posts_size = site.categories[category_name] | size %}
         <span class="text-muted small font-weight-light">
@@ -70,7 +70,7 @@ title: Categories
         <li class="list-group-item">
           <i class="far fa-folder fa-fw"></i>
           <a href="{{ site.baseurl }}/categories/{{ sub_category | replace: ' ', '-' | downcase | url_encode }}/"
-            class="ml-1 mr-2" onclick="sendGaEvent('category', '{{ category_name }}', '{{ sub_category }}')">{{ sub_category }}</a>
+            class="ml-1 mr-2" onclick="sendGaEvent('category', 'sub', '{{ category_name }}-{{ sub_category }}')">{{ sub_category }}</a>
           {% assign posts_size = site.categories[sub_category] | size %}
           <span class="text-muted small font-weight-light">{{ posts_size }}
             post{% if posts_size > 1 %}s{% endif %}
